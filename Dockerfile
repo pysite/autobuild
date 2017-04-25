@@ -9,4 +9,4 @@ ADD python3.6 /usr/local/python3.6
 
 EXPOSE 80
 
-CMD nohup /root/web/main.py &
+CMD ["/usr/local/python3.6/bin/python"] ["/root/web/main.py"]
